@@ -1,0 +1,9 @@
+services:
+  server:
+    build: .
+    environment:
+      NODE_ENV: production
+    volumes:
+      - ./src:/src
+    ports:
+      - 3000:3000
