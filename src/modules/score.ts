@@ -1,7 +1,7 @@
 class Score {
 
   win(): string {
-    return 'no'
+    return 'hell naw brother grox shit'
   }
 }
 
