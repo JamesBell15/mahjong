@@ -3,9 +3,5 @@ services:
     build:
       context: .
       target: deploy
-    environment:
-      NODE_ENV: production
-    volumes:
-      - ./src:/src
     ports:
       - 3000:3000
